@@ -1,0 +1,39 @@
+{
+    "name": "@ohos/giflib",
+    "version": "",
+    "description": "Third-party open-source software giflib | 三方开源软件giflib",
+    "homePage": "https://gitee.com/openharmony",
+    "license": "MIT",
+    "repository": "https://gitee.com/openharmony/third_party_giflib",
+    "domain": "os",
+    "language": "",
+    "publishAs": "code-segment",
+    "private": false,
+    "scripts": {},
+    "tags": [
+        "third_party"
+    ],
+    "keywords": [
+        "third-party",
+        "giflib"
+    ],
+    "envs": [],
+    "dirs": [],
+    "segment": {
+        "destPath": "third_party/giflib"
+    },
+    "component": {
+        "name": "thirdparty_giflib",
+        "subsystem": "",
+        "syscap": [],
+        "features": [],
+        "adapted_system_type": [],
+        "rom": "",
+        "ram": "",
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}
