@@ -20,6 +20,12 @@ if (defined(ohos_lite)) {  # is on lite Os for ipcamera
   lite_library("libgif") {
     if (ohos_kernel_type == "liteos_m") {
       target_type = "static_library"
+      if (board_toolchain_type == "iccarm") {
+        cflags = [
+          "--diag_suppress",
+          "Pa084",
+        ]
+      }
     } else {
       target_type = "shared_library"
     }
