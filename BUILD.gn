@@ -64,7 +64,7 @@ if (defined(ohos_lite)) {  # is on lite Os for ipcamera
   ohos_shared_library("libgif") {
     deps = [ ":gif_static" ]
     subsystem_name = "thirdparty"
-    part_name = "thirdparty_giflib"
+    part_name = "giflib"
     output_name = "libgif"
     install_enable = true
   }
