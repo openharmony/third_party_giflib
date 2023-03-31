@@ -14,7 +14,7 @@
         "en": "README"
     },
     "component": {
-        "name": "thirdparty_giflib",
+        "name": "giflib",
         "subsystem": "thirdparty",
         "syscap": [],
         "features": [],
